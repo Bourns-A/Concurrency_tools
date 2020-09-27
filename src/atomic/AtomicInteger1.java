@@ -1,12 +1,11 @@
 package atomic;
-
+/**
+ *describe: atomicInteger使用
+ *
+ *@author HNH
+ */
 import java.util.concurrent.atomic.AtomicInteger;
 
-/**
-*describe: atomicInteger使用
-*
-*@author HNH
-*/
 public class AtomicInteger1 implements Runnable {
     private static final AtomicInteger atomicInteger = new AtomicInteger();
     public void incrementAtomic() {
